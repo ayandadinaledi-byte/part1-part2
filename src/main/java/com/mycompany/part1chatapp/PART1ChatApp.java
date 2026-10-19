@@ -50,6 +50,7 @@ public class PART1ChatApp {
             boolean loggedIn = login.loginUser(loginUsername, loginPassword);
             String message = login.returnLoginStatus(loginUsername, loginPassword);
             System.out.println(message);
+            //Added Login class from Part 1
         }
     }
 }
